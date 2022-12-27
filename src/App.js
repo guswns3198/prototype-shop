@@ -7,6 +7,7 @@ import AppStateProvider from './providers/AppStateProvider';
 
 function App() {
   return (
+    
     <AppStateProvider>
       <Header />
         <div className="container">
