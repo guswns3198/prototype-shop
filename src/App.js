@@ -9,12 +9,14 @@ function App() {
   return (
     
     <AppStateProvider>
+
       <Header />
         <div className="container">
           <Prototypes />
           <Orders />
           <Footer />
         </div>
+        
     </AppStateProvider>
     
   );
